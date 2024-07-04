@@ -23,7 +23,7 @@ services:
     restart: always
     environment:
       WORDPRESS_DB_HOST: db:3306
-      WORDPRESS_DB_USER: git
+      WORDPRESS_DB_USER: vasanth
       WORDPRESS_DB_PASSWORD: laxmivasanth
       WORDPRESS_DB_NAME: vasanth
     volumes:
