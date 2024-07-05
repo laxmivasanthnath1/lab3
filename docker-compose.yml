@@ -9,7 +9,7 @@ services:
     restart: always
     environment:
       MYSQL_ROOT_PASSWORD: wordpress
-      MYSQL_DATABASE: git
+      MYSQL_DATABASE: jenkins
       MYSQL_USER: vasanth
       MYSQL_PASSWORD: laxmivasanth
 
@@ -25,7 +25,7 @@ services:
       WORDPRESS_DB_HOST: db:3306
       WORDPRESS_DB_USER: vasanth
       WORDPRESS_DB_PASSWORD: laxmivasanth
-      WORDPRESS_DB_NAME: git
+      WORDPRESS_DB_NAME: jenkins
     volumes:
       - wordpress_data:/var/www/html
 
